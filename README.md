@@ -1,7 +1,7 @@
 # Railway Reservation Management System
 
 ## Aim : 
-To create a user friendly Graphical User Interface (GUI) to ease the process of booking railway tickets, in contradictory travelling to the ticket counter and standing in long queues. 
+To create a user friendly Graphical User Interface (GUI) to ease the process of booking railway tickets, in contradictory to travel to the ticket counter and standing in long queues. 
 
 ## Specs :
 - Used the python Tkinter library for creating and editing the GUI.
