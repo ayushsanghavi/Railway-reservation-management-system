@@ -10,9 +10,12 @@ To create a user friendly Graphical User Interface (GUI) to ease the process of 
 - If the credentials are verified correctly, the GUI will popup a successfull login message.
 - The user is asked for his desired source and destination of travel. Incorporated the date of travel calender validation. The user is also asked for the class of ticket he is comfortable with. eg: 1A, 2A, 3A.
 - Based on the above parameters, a list of trains is shown.
-- The user can book the ticket. The data is stored in the database.
+- After selecting the desired the train, the user has to enter the details like name, age, ID proof, gender.
+- The user can then book the ticket. The data is stored in the database.
 - A successful receipt showing all the details correctly is displayed on the screen.
-- In case is the user wants to cancel his/her train ticket, he/she can enter the PNR number and fetch the necessary details from the database and cancel it. Cancelling the ticket will delete the entry from the database.
+- SQL queries are used to fetch the user data from the database.
+- Every ticket contains a PNR number which is obtained using random library. User can delete any ticket by adding his PNR number in the cancellation section.
+- Cancelling the ticket will delete the entry from the database.
 
 ## Tech used:
 - Python3
